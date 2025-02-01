@@ -1,5 +1,11 @@
+import Navbar from '../components/Navbar.jsx'
+
 function Library() {
-  return <></>;
+  return (
+    <>
+      <Navbar subtitle="· 도서관" />
+    </>
+  );
 }
 
 export default Library;
