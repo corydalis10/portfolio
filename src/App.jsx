@@ -1,9 +1,9 @@
-import { Route, Routes } from "react-router-dom";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Experience from "./pages/Experience";
-import Library from "./pages/Library";
-import "./App.css";
+import { Route, Routes } from "react-router-dom"
+import Home from "./pages/Home"
+import About from "./pages/About"
+import Experience from "./pages/Experience"
+import Library from "./pages/Library"
+import "./App.css"
 
 function App() {
   return (

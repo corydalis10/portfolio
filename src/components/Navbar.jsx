@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"
 
 function Navbar(props) {
     return (
@@ -21,7 +21,7 @@ function Navbar(props) {
                     </div>
                     <ul
                         tabIndex={0}
-                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 border-1 border-gray-500">
+                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 border-1 border-gray-300">
                         <li><Link to="/">홈</Link></li>
                         <li><Link to="/about">소개</Link></li>
                         <li><Link to="/experience">경험</Link></li>

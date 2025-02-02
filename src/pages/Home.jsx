@@ -1,8 +1,13 @@
+import { Helmet } from 'react-helmet'
+import { Link } from "react-router-dom"
 import Navbar from '../components/Navbar.jsx'
 
 function Home() {
   return (
     <>
+      <Helmet>
+        <title>corydalis10</title>
+      </Helmet>
       <Navbar subtitle="" />
       <div className="hero min-h-fit">
         <div className="hero-content flex-col lg:flex-row">
@@ -17,7 +22,9 @@ function Home() {
               excepturi exercitationem quasi. In deleniti eaque aut repudiandae
               et a id nisi.
             </p>
-            <button className="btn btn-primary">더 알아보기</button>
+            <Link to="/about">
+              <button className="btn btn-lg">더 알아보기</button>
+            </Link>
           </div>
         </div>
       </div>
