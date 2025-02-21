@@ -29,6 +29,8 @@ function Navbar(props) {
                         <li><Link to="/recommendation">프로젝트 추천</Link></li>
                         <li className="menu-title">독서</li>
                         <li><Link to="/library">도서관</Link></li>
+                        <li className="menu-title">링크</li>
+                        <li><a href="https://github.com/corydalis10">GitHub</a></li>
                     </ul>
                 </div>
                 <Link className="btn btn-ghost text-xl" to="/">corydalis10 {props.subtitle}</Link>
