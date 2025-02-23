@@ -11,7 +11,7 @@ function Recommendation() {
       <Navbar subtitle="· 프로젝트 추천" />
       <div className="m-4 grid grid-cols-4 gap-4">
         {RecommendationData.map((data) => (
-          <div className="card bg-base-100 shadow-sm">
+          <div className="card bg-base-100 shadow-sm" key={data.id}>
             <figure>
               <img
                 src={data.img}

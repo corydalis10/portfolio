@@ -18,9 +18,7 @@ function Home() {
           <div>
             <h1 className="text-5xl font-bold">안녕하세요 😀</h1>
             <p className="py-6">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
+              저는 중학생 개발자로 Node.js와 Android, 한국어 번역을 하는 강현호라고 합니다!
             </p>
             <Link to="/about">
               <button className="btn btn-lg">더 알아보기</button>
